@@ -1,0 +1,15 @@
+services:
+  - type: web
+    name: futuresbot
+    runtime: python
+    buildCommand: pip install -r requirements.txt
+    startCommand: python web/app.py
+    envVars:
+      - key: BINANCE_API_KEY
+        sync: false          # set manually in Render dashboard
+      - key: BINANCE_API_SECRET
+        sync: false          # set manually in Render dashboard
+      - key: LOG_LEVEL
+        value: INFO
+      - key: PORT
+        value: 5000
