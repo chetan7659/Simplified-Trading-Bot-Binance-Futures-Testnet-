@@ -10,8 +10,8 @@ Usage examples:
   python cli.py ping
 """
 from __future__ import annotations
-from dotenv import load_dotenv
-load_dotenv()   # loads .env into os.environ automatically
+# from dotenv import load_dotenv
+# load_dotenv()   # loads .env into os.environ automatically
 
 
 import argparse
