@@ -5,8 +5,8 @@ Wraps the existing bot/ layer behind a REST JSON API.
 The frontend (HTML/JS) talks to these endpoints.
 """
 from __future__ import annotations
-from dotenv import load_dotenv
-load_dotenv()   # loads .env into os.environ automatically
+# from dotenv import load_dotenv
+# load_dotenv()   # loads .env into os.environ automatically
 
 
 import os
